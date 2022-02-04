@@ -6,6 +6,7 @@ import Calc from './components/Calc';
 
 import Message from './components/Message';
 import First from './Assignment/First';
+import functionClick from './components/functionClick';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Message></Message>
         <Calc></Calc>
         <First></First>
+        <functionClick></functionClick>
       
     </div>
   );
